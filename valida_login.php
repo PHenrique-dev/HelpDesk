@@ -12,10 +12,10 @@
     if($usuario_autenticado){
         echo 'Usuário autenticado';
     }else{
-        echo 'Usuário não autenticado';
+        header('Location: index.php?login=erro');
     }
 
-    
+
     $_POST;
     $_POST['email'];
     $_POST['senha'];
